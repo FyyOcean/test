@@ -1,0 +1,164 @@
+.list{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.left_box{
+    width: 808px;
+    border: 1px solid #e4e4e4;
+    border-top: 0 none;
+}
+
+.left_title{
+    width: 100%;
+    height: 42px;
+    background: url(../images/tips_bg.jpg) repeat-x top center;
+    line-height: 42px;
+}
+
+.left_title_text{
+    background: url('../images/title_bg_2.jpg') repeat-x center bottom;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    border-right: 1px #e4e4e4 solid;
+    font-weight: bold;
+    font-size: 14px;
+    color: #067ff0;
+    line-height: 42px;
+}
+
+.left_cot{
+    width: 780px;
+    padding: 15px;
+}
+
+.left_cot ul li{
+    position: relative;
+    line-height: 48px;
+    padding-left: 30px;
+    font-size: 16px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.left_cot ul li a{
+    float: left;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 48px;
+}
+
+.left_cot ul li span{
+    float: right;
+    color: #666;
+    font-size: 12px;
+}
+
+.left_cot li:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    background-color: transparent;
+    border-radius: 0px;
+    background: url(../images/dot.png) 0px 0px no-repeat;
+}
+
+.left_cot li:hover:before {
+    background-color: transparent;
+    background: url(../images/dot02.png) 0px 0px no-repeat;
+}
+
+.left_cot li:hover a{
+    color: #067ff0;
+}
+
+.right_box{
+    width: 238px;
+}
+
+.time_tips{
+    height: 245px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 15px;
+}
+
+.time_tips_title{
+    width: 100%;
+    height: 42px;
+    background: url(../images/tips_bg.jpg) repeat-x top center;
+    line-height: 42px;
+}
+
+.time_tips_one{
+    background: url(../images/title_bg_2.jpg) repeat-x center bottom;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    border-right: 1px #e4e4e4 solid;
+    font-weight: bold;
+    font-size: 14px;
+    color: #067ff0;
+    line-height: 42px;
+    font-size: 14px;
+}
+
+.time_tips_title img{
+    vertical-align: middle;
+    width: 30px;
+}
+
+.time_tips_cot{
+    width: 208px;
+    padding: 15px;
+    color: #000;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.time_tips_cot span{
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #067ff0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.page_box{
+    padding: 5px 0 15px 5px;
+}
+
+.page_box a{
+    color: #067ff0;
+}
+
+.page_btn,
+.page_num{
+    padding: 5px 10px;
+    border: 1px solid #067ff0;
+    color: #067ff0;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.page_num{
+    float: left;
+}
+
+.page_more{
+    margin-left: 10px;
+}
+
+.page_btn:hover,
+.page_num:hover{
+    border-color: #067ff0;
+    background-color: #067ff0;
+    color: #fff;
+}
